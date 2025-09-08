@@ -12,12 +12,12 @@ const upload = multer({storage: multer.diskStorage({
     filename: function(req, file, cb ) {
         cb(null, file.originalname)
     }
-}) })
+}) 
+})
 
 
 router.route('/products').get( getProducts);
-router.route('/product/:id')
-                            .get(getSingleProduct);
+router.route('/product/:id').get(getSingleProduct);
             
         
 router.route('/review').put(isAuthenticatedUser, createReview)

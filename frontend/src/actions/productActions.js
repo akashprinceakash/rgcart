@@ -26,8 +26,7 @@ export const getProducts = (keyword, price, category, rating, currentPage) => as
     } catch (error) {
         //handle error
         dispatch(productsFail(error.response.data.message))
-    }
-    
+    }    
 }
 
 
@@ -41,7 +40,6 @@ export const getProduct = id => async (dispatch) => {
         //handle error
         dispatch(productFail(error.response.data.message))
     }
-    
 }
 
 export const createReview = reviewData => async (dispatch) => {

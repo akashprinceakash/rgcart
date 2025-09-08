@@ -38,7 +38,8 @@ export  default function Home(){
                         <div className="row">
                             { products && products.map(product => (
                                 <Product col={3} key={product._id}  product={product}/>
-                            ))}
+                            )
+                            )}
                         
                         </div>
                     </section>
