@@ -30,4 +30,3 @@ run this below command to run the app in production mode
 ```bash
 npm run prod
 ```
-
