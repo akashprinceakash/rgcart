@@ -31,14 +31,6 @@ run this below command to run the app in production mode
 npm run prod
 ```
 
-
-## Test
-open the http://localhost:8000 and test the 
-
-## Postman Collection
-https://www.postman.com/jvlcode/workspace/nodejs-ecommerce/collection/19530322-997cf450-820a-4852-bc1f-a93c9072d6ec?action=share&creator=19530322
-
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
